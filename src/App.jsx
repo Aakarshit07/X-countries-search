@@ -34,7 +34,7 @@ function App() {
             {filterCountry && filterCountry.map((country) => (
               <div key={country.cca3} className='countryCard'>
                 <img className='flag' src={country.flags.png} alt="flags" />
-                <h3>{country.name.common}</h3>
+                <h2>{country.name.common}</h2>
               </div>
             ))}
         </div>
